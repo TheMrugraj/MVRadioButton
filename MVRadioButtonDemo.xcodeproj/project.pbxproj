@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A99DA0111B4A668D007F9DEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A99DA0101B4A668D007F9DEE /* main.m */; };
+		A99DA0141B4A668E007F9DEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A99DA0131B4A668E007F9DEE /* AppDelegate.m */; };
+		A99DA0171B4A668E007F9DEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A99DA0161B4A668E007F9DEE /* ViewController.m */; };
+		A99DA01A1B4A668E007F9DEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A99DA0181B4A668E007F9DEE /* Main.storyboard */; };
+		A99DA01C1B4A668E007F9DEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99DA01B1B4A668E007F9DEE /* Images.xcassets */; };
+		A99DA01F1B4A668E007F9DEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A99DA01D1B4A668E007F9DEE /* LaunchScreen.xib */; };
+		A99DA02B1B4A668E007F9DEE /* MVRadioButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A99DA02A1B4A668E007F9DEE /* MVRadioButtonDemoTests.m */; };
+		A99DA0371B4A66B9007F9DEE /* MVRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A99DA0361B4A66B9007F9DEE /* MVRadioButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A99DA0251B4A668E007F9DEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A99DA0031B4A668D007F9DEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A99DA00A1B4A668D007F9DEE;
+			remoteInfo = MVRadioButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A99DA00B1B4A668D007F9DEE /* MVRadioButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVRadioButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99DA00F1B4A668D007F9DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99DA0101B4A668D007F9DEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A99DA0121B4A668D007F9DEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A99DA0131B4A668E007F9DEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A99DA0151B4A668E007F9DEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A99DA0161B4A668E007F9DEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A99DA0191B4A668E007F9DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A99DA01B1B4A668E007F9DEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A99DA01E1B4A668E007F9DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A99DA0241B4A668E007F9DEE /* MVRadioButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVRadioButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99DA0291B4A668E007F9DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99DA02A1B4A668E007F9DEE /* MVRadioButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVRadioButtonDemoTests.m; sourceTree = "<group>"; };
+		A99DA0351B4A66B9007F9DEE /* MVRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVRadioButton.h; sourceTree = "<group>"; };
+		A99DA0361B4A66B9007F9DEE /* MVRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVRadioButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A99DA0081B4A668D007F9DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99DA0211B4A668E007F9DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A99DA0021B4A668D007F9DEE = {
+			isa = PBXGroup;
+			children = (
+				A99DA00D1B4A668D007F9DEE /* MVRadioButtonDemo */,
+				A99DA0271B4A668E007F9DEE /* MVRadioButtonDemoTests */,
+				A99DA00C1B4A668D007F9DEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A99DA00C1B4A668D007F9DEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A99DA00B1B4A668D007F9DEE /* MVRadioButtonDemo.app */,
+				A99DA0241B4A668E007F9DEE /* MVRadioButtonDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A99DA00D1B4A668D007F9DEE /* MVRadioButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A99DA0341B4A66B9007F9DEE /* MVRadioButton */,
+				A99DA0121B4A668D007F9DEE /* AppDelegate.h */,
+				A99DA0131B4A668E007F9DEE /* AppDelegate.m */,
+				A99DA0151B4A668E007F9DEE /* ViewController.h */,
+				A99DA0161B4A668E007F9DEE /* ViewController.m */,
+				A99DA0181B4A668E007F9DEE /* Main.storyboard */,
+				A99DA01B1B4A668E007F9DEE /* Images.xcassets */,
+				A99DA01D1B4A668E007F9DEE /* LaunchScreen.xib */,
+				A99DA00E1B4A668D007F9DEE /* Supporting Files */,
+			);
+			path = MVRadioButtonDemo;
+			sourceTree = "<group>";
+		};
+		A99DA00E1B4A668D007F9DEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A99DA00F1B4A668D007F9DEE /* Info.plist */,
+				A99DA0101B4A668D007F9DEE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A99DA0271B4A668E007F9DEE /* MVRadioButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A99DA02A1B4A668E007F9DEE /* MVRadioButtonDemoTests.m */,
+				A99DA0281B4A668E007F9DEE /* Supporting Files */,
+			);
+			path = MVRadioButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		A99DA0281B4A668E007F9DEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A99DA0291B4A668E007F9DEE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A99DA0341B4A66B9007F9DEE /* MVRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				A99DA0351B4A66B9007F9DEE /* MVRadioButton.h */,
+				A99DA0361B4A66B9007F9DEE /* MVRadioButton.m */,
+			);
+			path = MVRadioButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A99DA00A1B4A668D007F9DEE /* MVRadioButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99DA02E1B4A668E007F9DEE /* Build configuration list for PBXNativeTarget "MVRadioButtonDemo" */;
+			buildPhases = (
+				A99DA0071B4A668D007F9DEE /* Sources */,
+				A99DA0081B4A668D007F9DEE /* Frameworks */,
+				A99DA0091B4A668D007F9DEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVRadioButtonDemo;
+			productName = MVRadioButtonDemo;
+			productReference = A99DA00B1B4A668D007F9DEE /* MVRadioButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A99DA0231B4A668E007F9DEE /* MVRadioButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99DA0311B4A668E007F9DEE /* Build configuration list for PBXNativeTarget "MVRadioButtonDemoTests" */;
+			buildPhases = (
+				A99DA0201B4A668E007F9DEE /* Sources */,
+				A99DA0211B4A668E007F9DEE /* Frameworks */,
+				A99DA0221B4A668E007F9DEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A99DA0261B4A668E007F9DEE /* PBXTargetDependency */,
+			);
+			name = MVRadioButtonDemoTests;
+			productName = MVRadioButtonDemoTests;
+			productReference = A99DA0241B4A668E007F9DEE /* MVRadioButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A99DA0031B4A668D007F9DEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = MV;
+				TargetAttributes = {
+					A99DA00A1B4A668D007F9DEE = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					A99DA0231B4A668E007F9DEE = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = A99DA00A1B4A668D007F9DEE;
+					};
+				};
+			};
+			buildConfigurationList = A99DA0061B4A668D007F9DEE /* Build configuration list for PBXProject "MVRadioButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A99DA0021B4A668D007F9DEE;
+			productRefGroup = A99DA00C1B4A668D007F9DEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A99DA00A1B4A668D007F9DEE /* MVRadioButtonDemo */,
+				A99DA0231B4A668E007F9DEE /* MVRadioButtonDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A99DA0091B4A668D007F9DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99DA01A1B4A668E007F9DEE /* Main.storyboard in Resources */,
+				A99DA01F1B4A668E007F9DEE /* LaunchScreen.xib in Resources */,
+				A99DA01C1B4A668E007F9DEE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99DA0221B4A668E007F9DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A99DA0071B4A668D007F9DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99DA0371B4A66B9007F9DEE /* MVRadioButton.m in Sources */,
+				A99DA0171B4A668E007F9DEE /* ViewController.m in Sources */,
+				A99DA0141B4A668E007F9DEE /* AppDelegate.m in Sources */,
+				A99DA0111B4A668D007F9DEE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99DA0201B4A668E007F9DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99DA02B1B4A668E007F9DEE /* MVRadioButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A99DA0261B4A668E007F9DEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A99DA00A1B4A668D007F9DEE /* MVRadioButtonDemo */;
+			targetProxy = A99DA0251B4A668E007F9DEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A99DA0181B4A668E007F9DEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A99DA0191B4A668E007F9DEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A99DA01D1B4A668E007F9DEE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A99DA01E1B4A668E007F9DEE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A99DA02C1B4A668E007F9DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A99DA02D1B4A668E007F9DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A99DA02F1B4A668E007F9DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MVRadioButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A99DA0301B4A668E007F9DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MVRadioButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A99DA0321B4A668E007F9DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MVRadioButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVRadioButtonDemo.app/MVRadioButtonDemo";
+			};
+			name = Debug;
+		};
+		A99DA0331B4A668E007F9DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MVRadioButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVRadioButtonDemo.app/MVRadioButtonDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A99DA0061B4A668D007F9DEE /* Build configuration list for PBXProject "MVRadioButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99DA02C1B4A668E007F9DEE /* Debug */,
+				A99DA02D1B4A668E007F9DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99DA02E1B4A668E007F9DEE /* Build configuration list for PBXNativeTarget "MVRadioButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99DA02F1B4A668E007F9DEE /* Debug */,
+				A99DA0301B4A668E007F9DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A99DA0311B4A668E007F9DEE /* Build configuration list for PBXNativeTarget "MVRadioButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99DA0321B4A668E007F9DEE /* Debug */,
+				A99DA0331B4A668E007F9DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A99DA0031B4A668D007F9DEE /* Project object */;
+}
